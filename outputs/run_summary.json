@@ -1,0 +1,58 @@
+{
+    "student_id": "2026CT05193",
+    "dataset": "UCI Adult Census Income",
+    "original_rows": 48842,
+    "rows_after_duplicate_removal": 48813,
+    "features": 14,
+    "training_rows": 39050,
+    "testing_rows": 9763,
+    "random_state": 5193,
+    "overall_winner": "Random Forest (Ensemble)",
+    "model_results": [
+        {
+            "ML Model Name": "Logistic Regression",
+            "Accuracy": 0.8556,
+            "AUC": 0.9075,
+            "Precision": 0.813,
+            "Recall": 0.7702,
+            "F1": 0.7878,
+            "MCC": 0.5816
+        },
+        {
+            "ML Model Name": "Decision Tree",
+            "Accuracy": 0.844,
+            "AUC": 0.8561,
+            "Precision": 0.7874,
+            "Recall": 0.7769,
+            "F1": 0.7819,
+            "MCC": 0.5642
+        },
+        {
+            "ML Model Name": "kNN",
+            "Accuracy": 0.8354,
+            "AUC": 0.8712,
+            "Precision": 0.7765,
+            "Recall": 0.7576,
+            "F1": 0.7662,
+            "MCC": 0.5338
+        },
+        {
+            "ML Model Name": "Naive Bayes",
+            "Accuracy": 0.5916,
+            "AUC": 0.8148,
+            "Precision": 0.6616,
+            "Recall": 0.7097,
+            "F1": 0.583,
+            "MCC": 0.3682
+        },
+        {
+            "ML Model Name": "Random Forest (Ensemble)",
+            "Accuracy": 0.8659,
+            "AUC": 0.9185,
+            "Precision": 0.8304,
+            "Recall": 0.7828,
+            "F1": 0.8022,
+            "MCC": 0.6114
+        }
+    ]
+}
