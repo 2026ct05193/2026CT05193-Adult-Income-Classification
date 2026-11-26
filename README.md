@@ -132,6 +132,7 @@ The following five classification algorithms were implemented:
 | kNN | kNN achieved an accuracy of 0.8354 and an AUC of 0.8712. Its macro precision was 0.7765, macro recall was 0.7576, macro F1 score was 0.7662, and MCC was 0.5338. The model's strongest metric was AUC, while its lowest metric was MCC. It correctly identified 90.68% of the actual <=50K class and 60.85% of the actual >50K class. |
 | Naive Bayes | Naive Bayes achieved an accuracy of 0.5916 and an AUC of 0.8148. Its macro precision was 0.6616, macro recall was 0.7097, macro F1 score was 0.5830, and MCC was 0.3682. The model's strongest metric was AUC, while its lowest metric was MCC. It correctly identified 48.32% of the actual <=50K class and 93.62% of the actual >50K class. |
 | Random Forest (Ensemble) | Random Forest (Ensemble) achieved an accuracy of 0.8659 and an AUC of 0.9185. Its macro precision was 0.8304, macro recall was 0.7828, macro F1 score was 0.8022, and MCC was 0.6114. The model's strongest metric was AUC, while its lowest metric was MCC. It correctly identified 94.22% of the actual <=50K class and 62.34% of the actual >50K class. |
+| Overall Winner | 	Random Forest (Ensemble) is the overall winner based on the selected ranking criteria. Macro F1: 0.8022, MCC: 0.6114, AUC: 0.9185, Accuracy: 0.8659. |
 
 ### Overall Winner
 
